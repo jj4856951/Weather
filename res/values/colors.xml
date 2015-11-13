@@ -3,5 +3,9 @@
     <color name="light_gray">#e6e6e6</color>
     <color name="dark_gray">#b8b8b8</color>
     <color name="frame_color">#717171</color>
+    <!-- 
     <color name="text_color">#666666</color>
+     -->
+    <color name="text_color">#ffffff</color>
+    <color name="blue">#63b8ff</color>
 </resources>

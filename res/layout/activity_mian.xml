@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@color/blue"
     android:orientation="vertical" >
 
     <com.zjw.weather.swiperefresh.PullToRefreshScrollView 
@@ -96,6 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+            	android:textColor="@color/text_color"
                 android:text="@string/default_text"
                 android:textSize="48sp" />
 
@@ -109,6 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+            		android:textColor="@color/text_color"
                     android:text="PM2.5" />
 
                 <LinearLayout
@@ -117,12 +119,14 @@
 
                     <TextView
                         android:id="@+id/tv_aqi"
+            			android:textColor="@color/text_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/default_text" />
 
                     <TextView
                         android:id="@+id/tv_quality"
+            			android:textColor="@color/text_color"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="5"

@@ -13,7 +13,7 @@
     <string name="dressing_index">穿衣指数</string>
     <string name="information">详细信息</string>
     <string name="default_text">_ _</string>
-    
+    <string name="title_city">城市选择</string>
     
     <string name="pull_to_refresh_pull_label">下拉刷新…</string>
     <string name="pull_to_refresh_release_label">放开以刷新…</string>

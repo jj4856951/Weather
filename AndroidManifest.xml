@@ -32,6 +32,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.zjw.weather.CityActivity"></activity>
+        <service android:name="com.zjw.weather.service.WeatherService"></service>
     </application>
 
 </manifest>
